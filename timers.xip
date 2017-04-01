@@ -1,0 +1,88 @@
+<project buildenvironment="{067c869e-5bd9-4595-9f4c-60348133ad8e}" buildenvironmentname="uEnergy" executionenvironmentoption="XAP2+ P0 ELF DWARF BINUTILS UENERGYSDK" buildenvironmentoption="UENERGYSDK" executionenvironmentname="uEnergy" name="CSR uEnergy" executionenvironment="{39e65239-59f4-4d78-b84a-26eaebfaa4de}" >
+ <folder name="C Files" >
+  <extension name="c" />
+  <file path="main.c" >
+   <properties>
+    <configuration name="Debug" />
+   </properties>
+  </file>
+  <file path="debug_interface.c" />
+  <file path="gap_service.c" >
+   <properties>
+    <configuration name="Release" />
+   </properties>
+  </file>
+  <file path="gatt_access.c" />
+  <file path="dev_info_service.c" />
+  <file path="battery_service.c" />
+  <file path="nvm_access.c" />
+  <file path="gatt_server.c" />
+  <file path="buzzer.c" />
+  <file path="hw_access.c" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/csr_mesh_light_hw.c" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/iot_hw.c" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/gunilamp_hw.c" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/fast_pwm.c" />
+ </folder>
+ <folder name="Header Files" >
+  <extension name="h" />
+  <file path="debug_interface.h" />
+  <file path="user_config.h" />
+  <file path="gap_service.h" >
+   <properties>
+    <configuration name="Release" />
+   </properties>
+  </file>
+  <file path="gatt_access.h" />
+  <file path="hw_access.h" />
+  <file path="gap_conn_params.h" />
+  <file path="gap_uuids.h" />
+  <file path="appearance.h" />
+  <file path="gatt_service_uuids.h" />
+  <file path="dev_info_service.h" />
+  <file path="dev_info_uuids.h" />
+  <file path="battery_service.h" />
+  <file path="battery_uuids.h" />
+  <file path="nvm_access.h" />
+  <file path="gatt_server.h" />
+  <file path="buzzer.h" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/csr_mesh_light_hw.h" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/iot_hw.h" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/gunilamp_hw.h" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/fast_pwm.h" />
+  <file path="beacon.h" />
+ </folder>
+ <folder name="Assembler Files" >
+  <extension name="asm" />
+  <file path="../../../Users/chris/workspace/CSRmesh-1.3-Examples-Applications_icp/56025_CSRmesh-1.3-Examples-Applications_icp/applications/CSRMeshLight/pio_ctrlr_code.asm" />
+ </folder>
+ <file path="README.html" />
+ <file path="timers_csr101x_A05.keyr" >
+  <properties>
+   <configuration name="Debug" />
+  </properties>
+ </file>
+ <file path="app_gatt_db.db" />
+ <file path="dev_info_service_db.db" />
+ <file path="battery_service_db.db" />
+ <properties currentconfiguration="Release" >
+  <configuration name="Debug" >
+   <property key="csr101x_a05_keyr" >C:\CSR_uEnergy_SDK-2.6.0.10\apps\radio\timers_csr101x_A05.keyr</property>
+   <property key="debugtransport" ></property>
+   <property key="defines" ></property>
+   <property key="libs" ></property>
+   <property key="otau_name" ></property>
+   <property key="otau_version" >1</property>
+   <property key="output" ></property>
+  </configuration>
+  <configuration name="Release" >
+   <property key="csr101x_a05_keyr" >timers_csr101x_A05.keyr</property>
+   <property key="debugtransport" ></property>
+   <property key="defines" ></property>
+   <property key="libs" ></property>
+   <property key="otau_name" ></property>
+   <property key="otau_version" >1</property>
+   <property key="output" ></property>
+  </configuration>
+ </properties>
+</project>
